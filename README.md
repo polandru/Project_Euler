@@ -1,3 +1,5 @@
-##Project Euler
+## Project Euler
 
-This is my code for [Project Euler](https://pojecteuler.net)
+This is my code for [Project Euler](https://projecteuler.net)
+ 
+Trying to teach myself Rust
