@@ -4,8 +4,8 @@ fn main(){
 
     let numbers = read_file();
     let mut largest = 0;
+
     //Horizontal
-  
     for row in 0..20 {
         for col in 0..=16 {
             let num = numbers[row][col] * numbers[row][col+1] * numbers[row][col+2] * numbers[row][col+3];
@@ -28,7 +28,6 @@ fn main(){
 
     //Diagonal
     for col in (1..=16).rev(){
-
         for row in 0..=(16-col){
             let num = numbers[row][col+row] * numbers[row+1][col+1+row] * numbers[row+2][col+2+row] * numbers[row+3][col+3+row];
             if num > largest{
